@@ -1,4 +1,4 @@
-# Day 1 - DevOps Bootcamp Task
+# Day 1 - DevOps DumbWays Task
 
 ## ✅ Task 1: Jelaskan istilah DevOps dengan kata kunci: **Continuous**
 
@@ -22,9 +22,10 @@ Dengan menerapkan prinsip **Continuous**, tim dapat mempercepat proses pengemban
 
 ## ✅ Task 2: Membuat Virtual Machine
 
-Saya telah membuat 1 virtual machine menggunakan [sebutkan alat yang digunakan, misal: Multipass / VirtualBox / VMware]. Screenshot VM dapat dilihat di bawah ini:
+Saya telah membuat 1 virtual machine menggunakan VirtualBox . Screenshot VM dapat dilihat di bawah ini:
 
-📷 **Screenshot VM** (akan ditambahkan nanti)
+📷 **Screenshot VM**
+![vm](vm.png)
 
 ---
 
@@ -36,3 +37,6 @@ Saya telah menginstal Nginx di dalam virtual machine. Berikut adalah langkah-lan
 sudo apt update
 sudo apt install nginx -y
 ```
+
+📷 **Screenshot Instalasi nginx di VM**
+![nginx](nginx.png)
