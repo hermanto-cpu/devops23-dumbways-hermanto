@@ -55,6 +55,12 @@ Berikut adalah beberapa command Linux yang telah saya coba:
 sudo apt update
 ```
 
-#digunakan untuk melakukan update packages agar memiliki versi terbaru. Dimana "sudo" ialah command agar perintah didalam shell dijalankan sebagai administrator, lalu "apt" berarti application didalam ubuntu server.
+Digunakan untuk melakukan update daftar package agar mendapatkan versi terbaru dari repository.
+
+sudo: Menjalankan perintah sebagai administrator/root.
+
+apt: Package manager untuk distribusi berbasis Debian (seperti Ubuntu).
+
+update: Menyegarkan daftar package yang tersedia dari repository.
 
 ![update](img/update.png)
