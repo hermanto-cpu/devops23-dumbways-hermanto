@@ -1,3 +1,25 @@
+# Day 2
+
+## ✅ Task 1: Diagram Jaringan IP Class C
+
+**Skenario:**
+
+- Gunakan IP Class C `192.168.11.xxx`
+- CIDR Block: `192.168.11.0/30`
+- Terdapat 4 device yang terhubung
+
+### 🔹 Penjelasan
+
+CIDR `/30` memiliki subnet mask `255.255.255.252`, sehingga hanya menyediakan **2 alamat IP usable** untuk host, karena:
+
+- 1 IP untuk network address
+- 1 IP untuk broadcast
+- 2 IP untuk host
+
+Dengan hanya 2 IP usable per subnet, maka agar dapat menghubungkan 4 device, kita perlu **2 subnet berbeda**.
+
+### 🔸 Diagram
+
 ### 🧠 Pembagian IP
 
 - **Subnet 1:** `192.168.11.0/30`
@@ -29,6 +51,9 @@
 
 Berikut adalah beberapa command Linux yang telah saya coba:
 
-```bash
+````bash
 sudo apt update
-```
+``` digunakan untuk melakukan update packages agar memiliki versi terbaru. Dimana "sudo" ialah command agar perintah didalam shell dijalankan sebagai administrator, lalu "apt" berarti application didalam ubuntu server.
+
+![update](img/update.png)
+````
