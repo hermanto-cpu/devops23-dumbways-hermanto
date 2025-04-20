@@ -51,9 +51,10 @@ Dengan hanya 2 IP usable per subnet, maka agar dapat menghubungkan 4 device, kit
 
 Berikut adalah beberapa command Linux yang telah saya coba:
 
-````bash
+```bash
 sudo apt update
-``` digunakan untuk melakukan update packages agar memiliki versi terbaru. Dimana "sudo" ialah command agar perintah didalam shell dijalankan sebagai administrator, lalu "apt" berarti application didalam ubuntu server.
+```
+
+#digunakan untuk melakukan update packages agar memiliki versi terbaru. Dimana "sudo" ialah command agar perintah didalam shell dijalankan sebagai administrator, lalu "apt" berarti application didalam ubuntu server.
 
 ![update](img/update.png)
-````
