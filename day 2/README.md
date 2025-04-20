@@ -59,7 +59,7 @@ Shell (`sh`) dan Bash (`bash`) adalah interpreter perintah (command-line interfa
 
 ---
 
-### 🧠 Kesimpulan:
+### Kesimpulan:
 
 - **SH** cocok untuk membuat skrip yang sangat sederhana dan portabel karena kompatibilitasnya tinggi.
 - **BASH** lebih cocok digunakan untuk pekerjaan sehari-hari di Linux dan membuat skrip kompleks karena kaya fitur.
@@ -67,7 +67,7 @@ Shell (`sh`) dan Bash (`bash`) adalah interpreter perintah (command-line interfa
 
 ---
 
-### 🔎 Contoh Perbedaan Script
+### Contoh Perbedaan Script
 
 **Script di SH:**
 
