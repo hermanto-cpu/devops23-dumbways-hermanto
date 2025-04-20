@@ -57,10 +57,65 @@ sudo apt update
 
 Digunakan untuk melakukan update daftar package agar mendapatkan versi terbaru dari repository.
 
-sudo: Menjalankan perintah sebagai administrator/root.
+\*sudo: Menjalankan perintah sebagai administrator.
 
-apt: Package manager untuk distribusi berbasis Debian (seperti Ubuntu).
+\*apt: Application/Package manager untuk distribusi berbasis Debian (seperti Ubuntu).
 
-update: Menyegarkan daftar package yang tersedia dari repository.
+\*update: Menyegarkan daftar package yang tersedia dari repository.
 
 ![update](img/update.png)
+
+```bash
+mkdir nama_direktori
+```
+
+Digunakan untuk membuat folder baru
+
+![mkdir](img/mkdir.png)
+
+```bash
+ls
+ls -l
+ls -la
+```
+
+Digunakan untuk melihat list
+![ls](img/ls.png)
+
+\*"-l" merupakan command tambahan untuk melihat list detail
+![lsl](img/lsl.png)
+
+\*"-la" merupakan command tambahan untuk melihat list detail dan juga berkas hidden didalamnya
+![lsla](img/lsla.png)
+
+```bash
+mkdir nama_direktori
+```
+
+Digunakan untuk membuat folder baru
+
+![mkdir](img/mkdir.png)
+
+```bash
+mkdir nama_direktori
+```
+
+Digunakan untuk membuat folder baru
+
+![mkdir](img/mkdir.png)
+
+```bash
+mkdir nama_direktori
+```
+
+Digunakan untuk membuat folder baru
+
+![mkdir](img/mkdir.png)
+
+```bash
+mkdir nama_direktori
+```
+
+Digunakan untuk membuat folder baru
+
+![mkdir](img/mkdir.png)
