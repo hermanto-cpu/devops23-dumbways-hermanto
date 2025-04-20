@@ -8,9 +8,10 @@
 - CIDR Block: `192.168.11.0/30`
 - Terdapat 4 device yang terhubung
 
-### 🔹 Penjelasan
+### Mencari subnet
 
-CIDR `/30` memiliki subnet mask `255.255.255.252`, sehingga hanya menyediakan **2 alamat IP usable** untuk host, karena:
+CIDR `/30` memiliki MAX IP 4, maka subnet mask bisa dicari dengan rumus`255.255.255.256-MAXIP`
+sehingga CIDR `/30` memiliki subnet mask `255.255.255.252`, sehingga hanya menyediakan **2 alamat IP usable** untuk host, karena:
 
 - 1 IP untuk network address
 - 1 IP untuk broadcast
@@ -20,7 +21,9 @@ Dengan hanya 2 IP usable per subnet, maka agar dapat menghubungkan 4 device, kit
 
 ### 🔸 Diagram
 
-### 🧠 Pembagian IP
+![diagram](img/slash30.png)
+
+### Pembagian IP
 
 - **Subnet 1:** `192.168.11.0/30`
 
