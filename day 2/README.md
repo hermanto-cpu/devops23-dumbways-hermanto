@@ -68,7 +68,7 @@ Shell (`sh`) dan Bash (`bash`) adalah interpreter perintah (command-line interfa
 
 **Script di SH:**
 
-````sh
+```sh
 #!/bin/sh
 echo "Hello from SH"
                        |
@@ -76,6 +76,7 @@ Script di BASH:
 #!/bin/bash
 name="Dumbways"
 echo "Hello from $name"
+```
 
 ---
 
@@ -85,7 +86,7 @@ Berikut adalah beberapa command Linux yang telah saya coba:
 
 ```bash
 sudo apt update
-````
+```
 
 Digunakan untuk melakukan update daftar package agar mendapatkan versi terbaru dari repository.
 
