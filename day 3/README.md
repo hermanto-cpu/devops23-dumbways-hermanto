@@ -98,7 +98,7 @@ sudo ufw enable
 sudo ufw allow "OpenSSH"
 ```
 
-![grep](img/status.png)
+![grep](img/allow.png)
 
 - Apabila sudah muncul seperti gambar diatas, maka allow akses untuk port 22, 80, 443, 3000, 5000,6969
 
@@ -112,4 +112,4 @@ sudo ufw allow 6969
 
 ```
 
-![grep](img/allow.png)
+![grep](img/status.png)
