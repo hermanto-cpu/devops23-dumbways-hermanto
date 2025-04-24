@@ -21,7 +21,7 @@ Host vm-dumbways
 ```
 
 - Jika sudah maka akan bisa meremote server menggunakan command `ssh vm-dumbways`
-  ![DevOps](ssh.png)
+  ![DevOps](img/ssh.png)
 
 ---
 
@@ -33,9 +33,9 @@ Host vm-dumbways
    ![DevOps](6969.png)
 
 2. Setelah selesai lakukan percobaan di windows terminal tanpa merubah port (Port default: 22)
-   ![DevOps](22.png)
+   ![DevOps](img/22.png)
 3. Ubah konfigurasi file config menjadi port 6969, maka akan berhasil masuk ke server
-   ![DevOps](berhasil.png)
+   ![DevOps](img/berhasil.png)
 
 ---
 
@@ -45,8 +45,8 @@ Host vm-dumbways
 
 1. Ubah konfigurasi `MaxSessions` dan `MaxStartsups` pada file direktori `/etc/ssh/sshd_config`
 
-   > MaxSessions: Jumlah sesi aktif per koneksi
-   > MaxStartups: Jumlah maksimum koneksi yang bisa terbuka sebelum login
-   > ![DevOps](max.png)
+   > - MaxSessions: Jumlah sesi aktif per koneksi
+   > - MaxStartups: Jumlah maksimum koneksi yang bisa terbuka sebelum login
+   >   ![DevOps](img/max.png)
 
 2. restart ssh server `sudo systemctl restart ssh`
