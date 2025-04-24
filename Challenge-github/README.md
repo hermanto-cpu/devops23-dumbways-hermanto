@@ -22,11 +22,11 @@
 1. Buat branch baru dan file baru di repository github
    ![DevOps](img/branch.png)
    ![DevOps](img/ucapan.png)
-   ![DevOps](img/buat.png.png)
+   ![DevOps](img/buat.png)
 
 2. Setelah selesai pull di lokal dengan perintah pada gambar agar melakukan pull request di semua branch yang ada di repo
    ![DevOps](img/pull.png)
 3. Repository sudah up to date!
-   ![DevOps](img/cek_pull.png.png)
+   ![DevOps](img/cek_pull.png)
 
 ---
