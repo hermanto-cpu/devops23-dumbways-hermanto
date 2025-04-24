@@ -53,3 +53,4 @@ git push origin master
 3. tambahkan file dan folder yang sudah baru dibuat dengan `git add .`
 4. lakukan commit dengan `git commit -m "message"`
 5. setelah selesai lakukan push dengan `git push origin <nama-branch>`
+   ![mkdir](img/git%20add.png)
