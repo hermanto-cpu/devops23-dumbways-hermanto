@@ -54,3 +54,8 @@ git push origin master
 4. lakukan commit dengan `git commit -m "message"`
 5. setelah selesai lakukan push dengan `git push origin <nama-branch>`
    ![mkdir](img/git%20add.png)
+   > NB :
+   >
+   > - Jika file hanya di modifikasi (tidak membuat file baru) maka melakukan commit bisa menggunakan `git commit -am "pesan"` kemudian dapat langsung di push ke repo
+   > - lakukan alias untuk command `git log --all --decorate --oneline --graph` misalnya `alias graph ="git log --all --decorate --oneline --graph"` untuk meninjau track repository kita dengan grafik yang enak untuk dilihat dan mudah dipahami
+   >   ![mkdir](img/am.png) > ![mkdir](img/graph.png)
