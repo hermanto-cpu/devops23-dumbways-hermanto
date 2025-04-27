@@ -39,14 +39,14 @@ Host vm-dumbways
 
 ---
 
-## SSH Hanya Bisa Diakses 1 Device
+## SSH Hanya Bisa Diakses 1 Device (How to prevent multiple connections in SSH)
 
 ### Step by step:
 
-1. Ubah konfigurasi `MaxSessions` dan `MaxStartsups` pada file direktori `/etc/ssh/sshd_config`
+1. Tambahkan konfigurasi `username - maxlogins 1` pada file direktori `/etc/security/limits.conf`
 
-   > - MaxSessions: Jumlah sesi aktif per koneksi
-   > - MaxStartups: Jumlah maksimum koneksi yang bisa terbuka sebelum login
-   >   ![DevOps](img/max.png)
+![DevOps](img/limits.png)
 
 2. restart ssh server `sudo systemctl restart ssh`
+3. Maka apabila terdapat login di server melebihi batas yang ditentukan akan terblock
+   ![DevOps](img/block.jpg)
