@@ -30,7 +30,7 @@ Host vm-dumbways
 ### Step by step:
 
 1. Ubah konfigurasi Port server di dalam direktori `/etc/ssh/sshd_config` menjadi Port 6969 kemudian restart ssh server seperti gambar di bawah
-   ![DevOps](6969.png)
+   ![DevOps](img/6969.png)
 
 2. Setelah selesai lakukan percobaan di windows terminal tanpa merubah port (Port default: 22)
    ![DevOps](img/22.png)
