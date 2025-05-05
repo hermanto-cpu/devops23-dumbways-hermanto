@@ -6,7 +6,6 @@
 
 - Gunakan IP Class C `192.168.11.xxx`
 - CIDR Block: `192.168.11.0/30`
-- Terdapat 4 device yang terhubung
 
 ### Mencari subnet
 
@@ -17,24 +16,15 @@ sehingga CIDR `/30` memiliki subnet mask `255.255.255.252`, sehingga hanya menye
 - 1 IP untuk broadcast
 - 2 IP untuk host
 
-Dengan hanya 2 IP usable per subnet, maka agar dapat menghubungkan 4 device, kita perlu **2 subnet berbeda**.
-
 ### 🔸 Diagram
 
-![diagram](img/slash30.png)
+![diagram](img/revisi.png)
 
 ### Pembagian IP
 
-- **Subnet 1:** `192.168.11.0/30`
-
-  - Network: `192.168.11.0`
-  - Host: `192.168.11.1`, `192.168.11.2`
-  - Broadcast: `192.168.11.3`
-
-- **Subnet 2:** `192.168.11.4/30`
-  - Network: `192.168.11.4`
-  - Host: `192.168.11.5`, `192.168.11.6`
-  - Broadcast: `192.168.11.7`
+- Network: `192.168.11.0`
+- Host: Router `192.168.11.1`, PC/HP `192.168.11.2`
+- Broadcast: `192.168.11.3`
 
 ---
 
